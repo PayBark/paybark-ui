@@ -1,9 +1,9 @@
 {
-  "name": "@commerce7/admin-ui",
-  "version": "1.10.6",
-  "description": "Commerce7 Admin UI Component Library",
+  "name": "@commerce7/paybark-ui",
+  "version": "1.0.0",
+  "description": "Paybark UI Component Library",
   "keywords": [
-    "Commerce7"
+    "PayBark"
   ],
   "main": "./lib/build.js",
   "license": "MIT",
