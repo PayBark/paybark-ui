@@ -7,6 +7,7 @@ import Card from './card';
 import CardLink from './cardLink';
 import Checkbox from './checkbox';
 import CheckboxGroup from './checkboxGroup';
+import Columns from './columns';
 import ContextMenu from './contextMenu';
 import DataDisplay from './dataDisplay';
 import DatePicker from './datePicker';
@@ -19,10 +20,14 @@ import LineBreak from './lineBreak';
 import LinkButton from './linkButton';
 import Modal from './modal';
 import Nav from './nav';
+import NoRecords from './noRecords';
+import Picture from './picture';
 import Radio from './radio';
 import RadioGroup from './radioGroup';
+import Region from './region';
 import Select from './select';
 import SelectButton from './selectButton';
+import Spinner from './spinner';
 import Stepper from './stepper';
 import SubMenu from './subMenu';
 import Switch from './switch';
@@ -45,6 +50,7 @@ export {
   Commerce7AdminUI,
   Checkbox,
   CheckboxGroup,
+  Columns,
   ContextMenu,
   DataDisplay,
   DatePicker,
@@ -56,12 +62,16 @@ export {
   Input,
   LineBreak,
   Nav,
+  NoRecords,
+  Picture,
   LinkButton,
   Modal,
   Radio,
   RadioGroup,
+  Region,
   Select,
   SelectButton,
+  Spinner,
   Stepper,
   SubMenu,
   Switch,
