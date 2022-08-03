@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "@paybark/paybark-ui",
   "version": "1.0.0",
   "description": "Paybark UI Component Library",
-=======
-  "name": "@commerce7/admin-ui",
-  "version": "1.10.38",
-  "description": "Commerce7 Admin UI Component Library",
->>>>>>> upstream/main
   "keywords": [
     "PayBark"
   ],
