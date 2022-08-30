@@ -38,18 +38,18 @@ import "@fontsource/nunito/600.css"
 
 ## Setup
 
-Wrap your application with `Commerce7AdminUI`:
+Wrap your application with `PayBarkUI`:
 
 ```
 import React from 'react';
-import { Commerce7AdminUI } from '@commerce7/admin-ui';
+import { PayBarkUI } from '@paybark/paybark-ui';
 import App from './App'
 
 function Index() {
     return (
-        <Commerce7AdminUI>
+        <PayBarkUI>
             <App/>
-        </Commerce7AdminUI>
+        </PayBarkUI>
     );
 }
 ```
@@ -62,7 +62,7 @@ Import components individually to use them inside your application:
 
 ```
 import React from 'react';
-import { Button } from '@commerce7/admin-ui';
+import { Button } from '@paybark/paybark-ui';
 
 function SaveButton() {
     return <Button>Hello World</Button>;
