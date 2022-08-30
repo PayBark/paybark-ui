@@ -36,7 +36,7 @@ import Tabs from './tabs';
 import Tag from './tag';
 import Text from './text';
 import Textarea from './textarea';
-import Commerce7AdminUI from './ui';
+import PayBarkUI from './ui';
 import { c7Colors } from './ui/theme';
 import VividIcon from './vividIcon';
 
@@ -47,7 +47,7 @@ export {
   Button,
   ButtonMenu,
   c7Colors,
-  Commerce7AdminUI,
+  PayBarkUI,
   Checkbox,
   CheckboxGroup,
   Columns,

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Card from '../card';
 import LineBreak from '../lineBreak';
 import Switch from '../switch';
-import Commerce7AdminUI from '../ui';
+import PayBarkUI from '../ui';
 
 const StoriesWrapper = (props) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -14,7 +14,7 @@ const StoriesWrapper = (props) => {
     setIsDarkMode(!isDarkMode);
   };
   return (
-    <Commerce7AdminUI mode={isDarkMode ? 'dark' : 'light'}>
+    <PayBarkUI mode={isDarkMode ? 'dark' : 'light'}>
       <WrapperStyles>
         <Switch
           checked={isDarkMode}
@@ -24,7 +24,7 @@ const StoriesWrapper = (props) => {
         <LineBreak />
         {children}
       </WrapperStyles>
-    </Commerce7AdminUI>
+    </PayBarkUI>
   );
 };
 

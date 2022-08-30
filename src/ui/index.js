@@ -1,3 +1,3 @@
-import Commerce7AdminUI from './Commerce7AdminUI';
+import PayBarkUI from './PayBarkUI';
 
-export default Commerce7AdminUI;
+export default PayBarkUI;

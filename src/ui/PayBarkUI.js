@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 
 import { createTheme, GlobalStyles } from './theme';
 
-const Commerce7AdminUI = (props) => {
+const PayBarkUI = (props) => {
   const { children, mode } = props;
   const theme = createTheme(mode);
   return (
@@ -14,12 +14,12 @@ const Commerce7AdminUI = (props) => {
   );
 };
 
-Commerce7AdminUI.defaultProps = {
+PayBarkUI.defaultProps = {
   mode: 'light'
 };
 
-Commerce7AdminUI.propTypes = {
+PayBarkUI.propTypes = {
   mode: PropTypes.oneOf(['light', 'dark'])
 };
 
-export default Commerce7AdminUI;
+export default PayBarkUI;
