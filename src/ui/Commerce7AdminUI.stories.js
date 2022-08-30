@@ -1,9 +1,9 @@
-import Commerce7AdminUI from '.';
+import PayBarkUI from '.';
 
 export const Basic = () => (
-  <Commerce7AdminUI mode="light">
+  <PayBarkUI mode="light">
     <div>Application Code</div>
-  </Commerce7AdminUI>
+  </PayBarkUI>
 );
 
 Basic.story = {
@@ -11,12 +11,12 @@ Basic.story = {
 };
 
 export default {
-  title: 'Commerce7AdminUI',
-  component: Commerce7AdminUI,
+  title: 'PayBarkUI',
+  component: PayBarkUI,
   parameters: {
     docs: {
       description: {
-        component: "import { Commerce7AdminUI } from '@commerce7/admin-ui'"
+        component: "import { PayBarkUI } from '@commerce7/admin-ui'"
       }
     }
   }

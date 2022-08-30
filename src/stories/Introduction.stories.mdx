@@ -1,11 +1,11 @@
 import pkg from '../../package.json';
 import { Meta } from '@storybook/addon-docs';
 
-<Meta title={`C7 Admin UI - v${pkg.version}`} />
+<Meta title={`PayBark UI - v${pkg.version}`} />
 
 <style>{``}</style>
 
-# Commerce7 Admin UI
+# PayBark UI
 
 <br />
 <br />
@@ -15,14 +15,14 @@ import { Meta } from '@storybook/addon-docs';
 To install and save in your package.json dependencies, run:
 
 ```
-npm install @commerce7/admin-ui
+npm install @paybark/paybark-ui
 ```
 
 <br />
 
 ## Nunito Font
 
-Commerce7 Admin UI was designed to be used with Nunito, available for free from <a href='https://fonts.google.com/specimen/Nunito' target='_blank'>Google Fonts</a>. Nunito can be included in your application inside of HTML or from NPM.
+PayBark UI was designed to be used with Nunito, available for free from <a href='https://fonts.google.com/specimen/Nunito' target='_blank'>Google Fonts</a>. Nunito can be included in your application inside of HTML or from NPM.
 
 In HTML:
 
@@ -46,18 +46,18 @@ import "@fontsource/nunito/600.css"
 
 ## Setup
 
-Wrap your application with `Commerce7AdminUI`:
+Wrap your application with `PayBarkUI`:
 
 ```
 import React from 'react';
-import { Commerce7AdminUI } from '@commerce7/admin-ui';
+import { PayBarkUI } from '@paybark/paybark-ui';
 import App from './App'
 
 function Index() {
     return (
-        <Commerce7AdminUI>
+        <PayBarkUI>
             <App/>
-        </Commerce7AdminUI>
+        </PayBarkUI>
     );
 }
 ```
@@ -70,7 +70,7 @@ Import components individually to use them inside your application:
 
 ```
 import React from 'react';
-import { Button } from '@commerce7/admin-ui';
+import { Button } from '@paybark/paybark-ui';
 
 function SaveButton() {
     return <Button>Hello World</Button>;
