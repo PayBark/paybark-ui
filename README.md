@@ -1,4 +1,4 @@
-# Commerce7 Admin UI
+# PayBark UI
 
 <br />
 
@@ -7,14 +7,14 @@
 To install and save in your package.json dependencies, run:
 
 ```
-npm install @commerce7/admin-ui
+npm install @paybark/paybark-ui
 ```
 
 <br />
 
 ## Nunito Font
 
-Commerce7 Admin UI was designed to be used with Nunito, available for free from <a href='https://fonts.google.com/specimen/Nunito' target='_blank'>Google Fonts</a>. Nunito can be included in your application inside of HTML or from NPM.
+PayBark UI was designed to be used with Nunito, available for free from <a href='https://fonts.google.com/specimen/Nunito' target='_blank'>Google Fonts</a>. Nunito can be included in your application inside of HTML or from NPM.
 
 In HTML:
 
