@@ -17,15 +17,15 @@ const StyledRadio = styled.span`
   transition: all 0.3s ease-in-out;
 
   background: ${({ theme }) =>
-    colors[theme.c7__ui.mode].backgroundColor.default};
-  border-color: ${({ theme }) => colors[theme.c7__ui.mode].borderColor.default};
+    colors[theme.pb__ui.mode].backgroundColor.default};
+  border-color: ${({ theme }) => colors[theme.pb__ui.mode].borderColor.default};
 
   &:after {
     content: '';
     display: block;
     width: 12px;
     height: 12px;
-    background: ${({ theme }) => colors[theme.c7__ui.mode].borderColor.checked};
+    background: ${({ theme }) => colors[theme.pb__ui.mode].borderColor.checked};
     border-radius: 50%;
     visibility: hidden;
     opacity: 0;
@@ -33,27 +33,27 @@ const StyledRadio = styled.span`
   }
 
   ${StyledToggleLabel}:hover + & {
-    border-color: ${({ theme }) => colors[theme.c7__ui.mode].borderColor.hover};
+    border-color: ${({ theme }) => colors[theme.pb__ui.mode].borderColor.hover};
   }
 
   ${StyledHiddenInput}:disabled + & {
     opacity: 0.4;
     cursor: not-allowed;
     border-color: ${({ theme }) =>
-      colors[theme.c7__ui.mode].borderColor.disabled};
+      colors[theme.pb__ui.mode].borderColor.disabled};
   }
 
   ${StyledHiddenInput}:focus + & {
-    border-color: ${({ theme }) => colors[theme.c7__ui.mode].borderColor.focus};
+    border-color: ${({ theme }) => colors[theme.pb__ui.mode].borderColor.focus};
     box-shadow: 0px 0px 1px 3px
-      ${({ theme }) => colors[theme.c7__ui.mode].boxShadow.focus};
+      ${({ theme }) => colors[theme.pb__ui.mode].boxShadow.focus};
   }
 
   ${StyledHiddenInput}:checked + & {
     border-color: ${({ theme }) =>
-      colors[theme.c7__ui.mode].borderColor.checked};
+      colors[theme.pb__ui.mode].borderColor.checked};
     background: ${({ theme }) =>
-      colors[theme.c7__ui.mode].backgroundColor.checked};
+      colors[theme.pb__ui.mode].backgroundColor.checked};
 
     &:after {
       visibility: visible;

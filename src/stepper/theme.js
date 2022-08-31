@@ -1,24 +1,24 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 export const colors = {
   light: {
     backgroundColor: {
-      default: c7Colors.gray300,
-      active: c7Colors.blue300
+      default: pbColors.gray300,
+      active: pbColors.blue300
     },
     iconColor: {
-      default: c7Colors.slate300,
-      active: c7Colors.white
+      default: pbColors.slate300,
+      active: pbColors.white
     }
   },
   dark: {
     backgroundColor: {
-      default: c7Colors.slate100,
-      active: c7Colors.blue300
+      default: pbColors.slate100,
+      active: pbColors.blue300
     },
     iconColor: {
-      default: c7Colors.white,
-      active: c7Colors.white
+      default: pbColors.white,
+      active: pbColors.white
     }
   }
 };

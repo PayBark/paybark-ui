@@ -7,14 +7,14 @@ const StyledModalBody = styled.div`
   max-height: 65vh;
   overflow-y: auto;
 
-  color: ${({ theme }) => theme.c7__ui.fontColor};
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-  background-color: ${({ theme }) => colors[theme.c7__ui.mode].backgroundColor};
+  color: ${({ theme }) => theme.pb__ui.fontColor};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  background-color: ${({ theme }) => colors[theme.pb__ui.mode].backgroundColor};
 
   ${({ theme }) => `
-      @media ${theme.c7__ui.breakpoints.mediumUp} {
+      @media ${theme.pb__ui.breakpoints.mediumUp} {
         padding: 20px;
       }
     `}

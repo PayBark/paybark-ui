@@ -26,37 +26,37 @@ const NavLinkStyles = styled.a`
   cursor: pointer;
   font-size: 16px;
   letter-spacing: 0.05em;
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 
   ${({ theme, $activeClassName }) => `
-    border-radius: ${theme.c7__ui.borderRadius};
-    color: ${colors[theme.c7__ui.mode].primaryLink.fontColor.default};
+    border-radius: ${theme.pb__ui.borderRadius};
+    color: ${colors[theme.pb__ui.mode].primaryLink.fontColor.default};
 
     ${NavLinkIconStyles} {
       path {
-        fill: ${colors[theme.c7__ui.mode].primaryLink.svgColor.default};
+        fill: ${colors[theme.pb__ui.mode].primaryLink.svgColor.default};
       }
     }
 
     &:hover {
         background: ${
-          colors[theme.c7__ui.mode].primaryLink.backgroundColor.hover
+          colors[theme.pb__ui.mode].primaryLink.backgroundColor.hover
         };
       ${NavLinkIconStyles} {
         path {
-          fill: ${colors[theme.c7__ui.mode].primaryLink.svgColor.hover};
+          fill: ${colors[theme.pb__ui.mode].primaryLink.svgColor.hover};
         }
       }
     }
 
     &.${$activeClassName} {
-      color: ${colors[theme.c7__ui.mode].primaryLink.fontColor.active};
+      color: ${colors[theme.pb__ui.mode].primaryLink.fontColor.active};
       background: ${
-        colors[theme.c7__ui.mode].primaryLink.backgroundColor.active
+        colors[theme.pb__ui.mode].primaryLink.backgroundColor.active
       };
       ${NavLinkIconStyles} {
         path {
-          fill: ${colors[theme.c7__ui.mode].primaryLink.svgColor.active};
+          fill: ${colors[theme.pb__ui.mode].primaryLink.svgColor.active};
         }
       }
     }
@@ -68,29 +68,29 @@ const SubNavLinkStyles = styled.a`
   align-items: center;
   padding: 8px 10px;
   margin-bottom: 4px;
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
   transition: ${baseTransition};
   border: none;
   background-color: inherit;
   cursor: pointer;
   width: 100%;
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 
   ${({ theme, $activeClassName }) => `
-    border-radius: ${theme.c7__ui.borderRadius};
-    color: ${colors[theme.c7__ui.mode].secondaryLink.fontColor.default};
+    border-radius: ${theme.pb__ui.borderRadius};
+    color: ${colors[theme.pb__ui.mode].secondaryLink.fontColor.default};
 
     &:hover {
       background: ${
-        colors[theme.c7__ui.mode].secondaryLink.backgroundColor.hover
+        colors[theme.pb__ui.mode].secondaryLink.backgroundColor.hover
       };
     }
 
     &.${$activeClassName} {
       background: ${
-        colors[theme.c7__ui.mode].secondaryLink.backgroundColor.active
+        colors[theme.pb__ui.mode].secondaryLink.backgroundColor.active
       };
-      color: ${colors[theme.c7__ui.mode].secondaryLink.fontColor.active};
+      color: ${colors[theme.pb__ui.mode].secondaryLink.fontColor.active};
     }
   `}
 `;
@@ -111,13 +111,13 @@ const SubNavStyles = styled.div`
 `;
 
 const NavStyles = styled.nav`
-  background: ${({ theme }) => colors[theme.c7__ui.mode].backgroundColor};
+  background: ${({ theme }) => colors[theme.pb__ui.mode].backgroundColor};
   width: 260px;
   padding: 10px 10px 5px 10px;
   z-index: 1000;
   overflow: auto;
   border-right: 1px solid
-    ${({ theme }) => colors[theme.c7__ui.mode].borderColor};
+    ${({ theme }) => colors[theme.pb__ui.mode].borderColor};
   display: flex;
   flex-direction: column;
 `;

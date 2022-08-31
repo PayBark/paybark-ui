@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { colors, dayColors } from './theme';
 
 const StyledDatePicker = styled.div`
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
   position: relative;
 
   .rdt {
@@ -20,10 +20,10 @@ const StyledDatePicker = styled.div`
     padding: 4px;
     margin-top: 1px;
     z-index: 99999 !important;
-    background: ${({ theme }) => colors[theme.c7__ui.mode].backgroundColor};
+    background: ${({ theme }) => colors[theme.pb__ui.mode].backgroundColor};
     border: ${({ theme, inline }) =>
-      inline ? '' : `1px solid ${colors[theme.c7__ui.mode].borderColor}`};
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.default};
+      inline ? '' : `1px solid ${colors[theme.pb__ui.mode].borderColor}`};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.default};
     box-shadow: rgb(0 0 0 / 15%) 2px 4px 6px;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -49,11 +49,11 @@ const StyledDatePicker = styled.div`
     text-align: center;
     height: 28px;
     border-radius: 3px;
-    font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
+    font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   }
   .rdtPicker td {
     cursor: pointer;
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.default};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.default};
   }
   .rdtPicker td.rdtDay:hover,
   .rdtPicker td.rdtHour:hover,
@@ -61,29 +61,29 @@ const StyledDatePicker = styled.div`
   .rdtPicker td.rdtSecond:hover,
   .rdtPicker .rdtTimeToggle:hover {
     background-color: ${({ theme }) =>
-      dayColors[theme.c7__ui.mode].backgroundColor.hover};
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.hover};
+      dayColors[theme.pb__ui.mode].backgroundColor.hover};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.hover};
     cursor: pointer;
   }
   .rdtPicker td.rdtOld {
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.disabled};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.disabled};
   }
   .rdtPicker td.rdtNew {
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.inactive};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.inactive};
   }
   .rdtPicker td.rdtToday {
     position: relative;
   }
   .rdtPicker td.rdtToday {
     background-color: ${({ theme }) =>
-      dayColors[theme.c7__ui.mode].backgroundColor.today};
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.default};
+      dayColors[theme.pb__ui.mode].backgroundColor.today};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.default};
   }
   .rdtPicker td.rdtActive,
   .rdtPicker td.rdtActive:hover {
     background-color: ${({ theme }) =>
-      dayColors[theme.c7__ui.mode].backgroundColor.active};
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.active};
+      dayColors[theme.pb__ui.mode].backgroundColor.active};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.active};
   }
   .rdtPicker td.rdtActive.rdtToday:before {
     border-bottom-color: #fff;
@@ -105,13 +105,13 @@ const StyledDatePicker = styled.div`
     cursor: not-allowed;
   }
   .rdtPicker th {
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.default};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.default};
   }
   .rdtPicker .dow {
     width: 14.2857%;
     border-bottom: none;
     cursor: default;
-    font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
+    font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
   }
   .rdtPicker th.rdtSwitch {
     width: 100px;
@@ -139,8 +139,8 @@ const StyledDatePicker = styled.div`
   }
   .rdtPicker thead tr:first-child th:hover {
     background-color: ${({ theme }) =>
-      dayColors[theme.c7__ui.mode].backgroundColor.hover};
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.hover};
+      dayColors[theme.pb__ui.mode].backgroundColor.hover};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.hover};
   }
 
   .rdtPicker tfoot {
@@ -170,8 +170,8 @@ const StyledDatePicker = styled.div`
   td.rdtMonth:hover,
   td.rdtYear:hover {
     background-color: ${({ theme }) =>
-      dayColors[theme.c7__ui.mode].backgroundColor.hover};
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.hover};
+      dayColors[theme.pb__ui.mode].backgroundColor.hover};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.hover};
   }
 
   .rdtCounters {

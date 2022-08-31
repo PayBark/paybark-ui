@@ -21,15 +21,15 @@ const StyledContextMenuItem = styled.button`
 
   margin-right: 20px;
 
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: 16px;
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 
-  color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.default};
+  color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.default};
 
   &:disabled {
     cursor: not-allowed;
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.disabled};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.disabled};
   }
 `;
 
@@ -41,7 +41,7 @@ const StyledContextMenuIcon = styled(Icon)`
 
   ${StyledContextMenuItem}:hover:not(:disabled) &, ${StyledContextMenuItem}:focus:not(:disabled) & {
     path {
-      fill: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.hover};
+      fill: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.hover};
     }
   }
 `;

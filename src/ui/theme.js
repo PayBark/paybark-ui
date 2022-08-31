@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import styledNormalize from 'styled-normalize';
 
-export const c7Colors = {
+export const pbColors = {
   white: '#FFFFFF',
   black: '#000000',
 
@@ -40,28 +40,28 @@ export const c7Colors = {
 };
 
 const fontColors = {
-  dark: c7Colors.gray200,
-  light: c7Colors.slate300
+  dark: pbColors.gray200,
+  light: pbColors.slate300
 };
 
 const secondaryFontColors = {
-  dark: c7Colors.gray500,
-  light: c7Colors.gray600
+  dark: pbColors.gray500,
+  light: pbColors.gray600
 };
 
 const backgroundColors = {
-  dark: c7Colors.slate300,
-  light: c7Colors.white
+  dark: pbColors.slate300,
+  light: pbColors.white
 };
 
 const secondaryBackgroundColors = {
-  dark: c7Colors.gray900,
-  light: c7Colors.gray100
+  dark: pbColors.gray900,
+  light: pbColors.gray100
 };
 
 const borderColors = {
-  dark: c7Colors.gray800,
-  light: c7Colors.gray300
+  dark: pbColors.gray800,
+  light: pbColors.gray300
 };
 
 const boxShadow = {
@@ -70,17 +70,17 @@ const boxShadow = {
 };
 
 const linkColors = {
-  light: c7Colors.blue500,
-  dark: c7Colors.blue300
+  light: pbColors.blue500,
+  dark: pbColors.blue300
 };
 
 const errorColors = {
-  light: c7Colors.red300,
-  dark: c7Colors.red300
+  light: pbColors.red300,
+  dark: pbColors.red300
 };
 
 export const createTheme = (mode) => ({
-  c7__ui: {
+  pb__ui: {
     mode,
     fontFamily: '"Nunito", sans-serif',
     fontSizeBase: '15px',
@@ -96,7 +96,7 @@ export const createTheme = (mode) => ({
     errorColor: errorColors[mode],
     borderRadius: '3px',
     boxShadow: boxShadow[mode],
-    colors: c7Colors,
+    colors: pbColors,
     breakpoints: {
       smallUp: `only screen`,
       smallOnly: `only screen and (max-width: 39.9375em)`,
@@ -120,19 +120,19 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   html, body {
-    font-size:  ${({ theme }) => theme.c7__ui.fontSizeBase};
-    font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-    font-weight:  ${({ theme }) => theme.c7__ui.fontWeightBase};
+    font-size:  ${({ theme }) => theme.pb__ui.fontSizeBase};
+    font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+    font-weight:  ${({ theme }) => theme.pb__ui.fontWeightBase};
     -webkit-font-smoothing: antialiased;
   }
   body {
     margin: 0;
     padding: 0;
-    color: ${({ theme }) => theme.c7__ui.fontColor};
-    background-color: ${({ theme }) => theme.c7__ui.backgroundColor}; 
+    color: ${({ theme }) => theme.pb__ui.fontColor};
+    background-color: ${({ theme }) => theme.pb__ui.backgroundColor}; 
   }
   a {
-    color: ${({ theme }) => theme.c7__ui.linkColor};
+    color: ${({ theme }) => theme.pb__ui.linkColor};
     text-decoration: none;
   }
   img {

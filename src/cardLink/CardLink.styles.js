@@ -15,7 +15,7 @@ const StyledCardLink = styled.div`
   &:hover,
   :focus {
     background: ${({ theme }) =>
-      colors[theme.c7__ui.mode].invertedBackgroundColor};
+      colors[theme.pb__ui.mode].invertedBackgroundColor};
   }
   text-decoration: none !important;
   color: inherit;
@@ -33,7 +33,7 @@ const StyledCardDescription = styled(Text).attrs({
   block: true
 })`
   margin: 0;
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
 `;
 
 const StyledCardIcon = styled(Icon)`
@@ -41,9 +41,9 @@ const StyledCardIcon = styled(Icon)`
   padding: 10px;
   border-radius: 3px;
   background: ${({ theme }) =>
-    colors[theme.c7__ui.mode].invertedBackgroundColor};
+    colors[theme.pb__ui.mode].invertedBackgroundColor};
   ${StyledCardLink}:hover &, ${StyledCardLink}:focus & {
-    background: ${({ theme }) => colors[theme.c7__ui.mode].iconBackgroundColor};
+    background: ${({ theme }) => colors[theme.pb__ui.mode].iconBackgroundColor};
   }
   width: 45px;
   height: 45px;

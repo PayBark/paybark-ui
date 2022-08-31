@@ -7,7 +7,7 @@ const StyledThead = styled.thead`
 
   tr {
     background-color: ${({ theme }) =>
-      theadColors[theme.c7__ui.mode].backgroundColor} !important;
+      theadColors[theme.pb__ui.mode].backgroundColor} !important;
   }
 `;
 

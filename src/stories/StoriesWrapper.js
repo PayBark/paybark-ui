@@ -29,7 +29,7 @@ const StoriesWrapper = (props) => {
 };
 
 const WrapperStyles = styled(Card)`
-  background-color: ${({ theme }) => theme.c7__ui.backgroundColor};
+  background-color: ${({ theme }) => theme.pb__ui.backgroundColor};
 `;
 
 export default StoriesWrapper;

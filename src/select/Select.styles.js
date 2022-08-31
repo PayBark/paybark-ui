@@ -10,7 +10,7 @@ const StyledSelect = styled(StyledFormItem).attrs({
   appearance: none;
 
   &:not(:focus):invalid {
-    color: ${({ theme }) => placeholderColors[theme.c7__ui.mode].color};
+    color: ${({ theme }) => placeholderColors[theme.pb__ui.mode].color};
   }
 `;
 

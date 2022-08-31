@@ -15,7 +15,7 @@ const StyledStepper = styled.div`
 
 const StyledStepCircle = styled.div`
   background-color: ${({ theme }) =>
-    colors[theme.c7__ui.mode].backgroundColor.default};
+    colors[theme.pb__ui.mode].backgroundColor.default};
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -30,18 +30,18 @@ const StyledStepCircle = styled.div`
 
 const StyledStepIcon = styled(Icon).attrs({ size: 20 })`
   path {
-    fill: ${({ theme }) => colors[theme.c7__ui.mode].iconColor.default};
+    fill: ${({ theme }) => colors[theme.pb__ui.mode].iconColor.default};
   }
 `;
 
 const StyledLine = styled.div`
   height: 1px;
   width: 100%;
-  background-color: ${({ theme }) => theme.c7__ui.borderColor};
+  background-color: ${({ theme }) => theme.pb__ui.borderColor};
   flex: 1;
   display: none;
 
-  @media ${({ theme }) => theme.c7__ui.breakpoints.largeUp} {
+  @media ${({ theme }) => theme.pb__ui.breakpoints.largeUp} {
     display: block;
     flex: 1;
   }
@@ -54,7 +54,7 @@ const StyledStep = styled.div`
   justify-content: center;
 
   &:last-of-type {
-    @media ${({ theme }) => theme.c7__ui.breakpoints.largeUp} {
+    @media ${({ theme }) => theme.pb__ui.breakpoints.largeUp} {
       flex: 0;
     }
     > ${StyledLine} {
@@ -73,7 +73,7 @@ const StyledStepButton = styled.div`
   border: none;
   ${({ as }) => (as !== 'div' ? 'cursor: pointer;' : '')}
 
-  @media ${({ theme }) => theme.c7__ui.breakpoints.largeUp} {
+  @media ${({ theme }) => theme.pb__ui.breakpoints.largeUp} {
     flex-direction: row;
     margin: 0 10px;
   }
@@ -81,10 +81,10 @@ const StyledStepButton = styled.div`
   &.${({ $activeClassName }) => $activeClassName} {
     > ${StyledStepCircle} {
       background-color: ${({ theme }) =>
-        colors[theme.c7__ui.mode].backgroundColor.active};
+        colors[theme.pb__ui.mode].backgroundColor.active};
       > ${StyledStepIcon} {
         path {
-          fill: ${({ theme }) => colors[theme.c7__ui.mode].iconColor.active};
+          fill: ${({ theme }) => colors[theme.pb__ui.mode].iconColor.active};
         }
       }
     }
@@ -97,7 +97,7 @@ const StyledStepLabelWrapper = styled.div`
   align-items: center;
   margin: 7px 0 0 0;
 
-  @media ${({ theme }) => theme.c7__ui.breakpoints.largeUp} {
+  @media ${({ theme }) => theme.pb__ui.breakpoints.largeUp} {
     margin: 0 0 0 9px;
     align-items: start;
   }

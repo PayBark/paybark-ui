@@ -9,7 +9,7 @@ const StyledSubMenu = styled.div`
 
   ${({ theme, $borderBottom }) => {
     if ($borderBottom) {
-      return `border-bottom: 1px solid ${theme.c7__ui.borderColor};`;
+      return `border-bottom: 1px solid ${theme.pb__ui.borderColor};`;
     }
     return '';
   }}
@@ -21,14 +21,14 @@ const StyledSubMenu = styled.div`
     cursor: pointer;
 
     ${({ theme, $activeClassName }) => `
-      color: ${theme.c7__ui.fontColor};
+      color: ${theme.pb__ui.fontColor};
       border-bottom: 2px solid transparent;
       &:hover:not(.${$activeClassName}), &:focus:not(.${$activeClassName}) {
-        border-color: ${theme.c7__ui.colors.blue400};
+        border-color: ${theme.pb__ui.colors.blue400};
       }
       &.${$activeClassName} {
-        color: ${theme.c7__ui.colors.blue400};
-        border-color: ${theme.c7__ui.colors.blue400};
+        color: ${theme.pb__ui.colors.blue400};
+        border-color: ${theme.pb__ui.colors.blue400};
       }
     `}
   }
@@ -43,14 +43,14 @@ const StyledSubMenuItem = styled.div`
   background-color: transparent;
 
   ${({ theme, $activeClassName }) => `
-  color: ${theme.c7__ui.fontColor};
+  color: ${theme.pb__ui.fontColor};
   border-bottom: 2px solid transparent;
   &:hover:not(.${$activeClassName}), &:focus:not(.${$activeClassName}) {
-    border-color: ${theme.c7__ui.colors.blue400};
+    border-color: ${theme.pb__ui.colors.blue400};
   }
   &.${$activeClassName} {
-    color: ${theme.c7__ui.colors.blue400};
-    border-color: ${theme.c7__ui.colors.blue400};
+    color: ${theme.pb__ui.colors.blue400};
+    border-color: ${theme.pb__ui.colors.blue400};
   }
 `}
 `;

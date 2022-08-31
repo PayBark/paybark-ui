@@ -20,9 +20,9 @@ const StyledDropdown = styled.div`
   max-width: 80vw;
 
   background: ${({ theme }) =>
-    dropdownColors[theme.c7__ui.mode].backgroundColor.default};
+    dropdownColors[theme.pb__ui.mode].backgroundColor.default};
   border-color: ${({ theme }) =>
-    dropdownColors[theme.c7__ui.mode].borderColor.default};
+    dropdownColors[theme.pb__ui.mode].borderColor.default};
 
   ${StyledContextMenuItem} {
     padding: 10px 40px 10px 10px;
@@ -30,16 +30,16 @@ const StyledDropdown = styled.div`
     height: auto;
     width: 100%;
     background-color: ${({ theme }) =>
-      dropdownButtonColors[theme.c7__ui.mode].backgroundColor.default};
+      dropdownButtonColors[theme.pb__ui.mode].backgroundColor.default};
 
     &:hover {
       background-color: ${({ theme }) =>
-        dropdownButtonColors[theme.c7__ui.mode].backgroundColor.hover};
+        dropdownButtonColors[theme.pb__ui.mode].backgroundColor.hover};
     }
 
     &:focus {
       background-color: ${({ theme }) =>
-        dropdownButtonColors[theme.c7__ui.mode].backgroundColor.focus};
+        dropdownButtonColors[theme.pb__ui.mode].backgroundColor.focus};
     }
   }
 

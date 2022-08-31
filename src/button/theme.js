@@ -1,4 +1,4 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const sizes = {
   small: {
@@ -27,56 +27,56 @@ const colors = {
         disabled: 'white'
       },
       backgroundColor: {
-        default: c7Colors.blue400,
-        hover: c7Colors.blue300,
-        focus: c7Colors.blue400,
-        disabled: c7Colors.gray500
+        default: pbColors.blue400,
+        hover: pbColors.blue300,
+        focus: pbColors.blue400,
+        disabled: pbColors.gray500
       },
       borderColor: {
-        default: c7Colors.blue400,
-        hover: c7Colors.blue300,
-        focus: c7Colors.blue300,
-        disabled: c7Colors.gray500
+        default: pbColors.blue400,
+        hover: pbColors.blue300,
+        focus: pbColors.blue300,
+        disabled: pbColors.gray500
       }
     },
     secondary: {
       fontColor: {
-        default: c7Colors.blue400,
-        hover: c7Colors.blue300,
-        focus: c7Colors.blue300,
-        disabled: c7Colors.gray500
+        default: pbColors.blue400,
+        hover: pbColors.blue300,
+        focus: pbColors.blue300,
+        disabled: pbColors.gray500
       },
       iconColor: {
-        default: c7Colors.blue400,
-        hover: c7Colors.blue400,
-        focus: c7Colors.blue300,
-        disabled: c7Colors.gray500
+        default: pbColors.blue400,
+        hover: pbColors.blue400,
+        focus: pbColors.blue300,
+        disabled: pbColors.gray500
       },
       backgroundColor: {
-        default: c7Colors.slate300,
-        hover: c7Colors.slate200,
-        focus: c7Colors.slate200,
-        disabled: c7Colors.slate300
+        default: pbColors.slate300,
+        hover: pbColors.slate200,
+        focus: pbColors.slate200,
+        disabled: pbColors.slate300
       },
       borderColor: {
-        default: c7Colors.blue500,
-        hover: c7Colors.blue300,
-        focus: c7Colors.blue300,
-        disabled: c7Colors.gray500
+        default: pbColors.blue500,
+        hover: pbColors.blue300,
+        focus: pbColors.blue300,
+        disabled: pbColors.gray500
       }
     },
     text: {
       fontColor: {
-        default: c7Colors.gray500,
-        hover: c7Colors.gray500,
-        focus: c7Colors.gray500,
-        disabled: c7Colors.gray500
+        default: pbColors.gray500,
+        hover: pbColors.gray500,
+        focus: pbColors.gray500,
+        disabled: pbColors.gray500
       },
       iconColor: {
-        default: c7Colors.gray500,
+        default: pbColors.gray500,
         hover: 'white',
         focus: 'white',
-        disabled: c7Colors.gray500
+        disabled: pbColors.gray500
       },
       backgroundColor: {
         default: 'transparent',
@@ -93,16 +93,16 @@ const colors = {
     },
     link: {
       fontColor: {
-        default: c7Colors.blue300,
-        hover: c7Colors.blue300,
-        focus: c7Colors.blue300,
-        disabled: c7Colors.gray500
+        default: pbColors.blue300,
+        hover: pbColors.blue300,
+        focus: pbColors.blue300,
+        disabled: pbColors.gray500
       },
       iconColor: {
-        default: c7Colors.blue300,
-        hover: c7Colors.blue300,
-        focus: c7Colors.blue300,
-        disabled: c7Colors.gray500
+        default: pbColors.blue300,
+        hover: pbColors.blue300,
+        focus: pbColors.blue300,
+        disabled: pbColors.gray500
       },
       backgroundColor: {
         default: 'transparent',
@@ -133,56 +133,56 @@ const colors = {
         disabled: 'white'
       },
       backgroundColor: {
-        default: c7Colors.blue400,
-        hover: c7Colors.blue500,
-        focus: c7Colors.blue400,
-        disabled: c7Colors.gray500
+        default: pbColors.blue400,
+        hover: pbColors.blue500,
+        focus: pbColors.blue400,
+        disabled: pbColors.gray500
       },
       borderColor: {
-        default: c7Colors.blue400,
-        hover: c7Colors.blue500,
-        focus: c7Colors.blue500,
-        disabled: c7Colors.gray500
+        default: pbColors.blue400,
+        hover: pbColors.blue500,
+        focus: pbColors.blue500,
+        disabled: pbColors.gray500
       }
     },
     secondary: {
       fontColor: {
-        default: c7Colors.blue500,
-        hover: c7Colors.blue500,
-        focus: c7Colors.blue500,
-        disabled: c7Colors.gray500
+        default: pbColors.blue500,
+        hover: pbColors.blue500,
+        focus: pbColors.blue500,
+        disabled: pbColors.gray500
       },
       iconColor: {
-        default: c7Colors.blue500,
-        hover: c7Colors.blue500,
-        focus: c7Colors.blue500,
-        disabled: c7Colors.gray500
+        default: pbColors.blue500,
+        hover: pbColors.blue500,
+        focus: pbColors.blue500,
+        disabled: pbColors.gray500
       },
       backgroundColor: {
         default: 'white',
-        hover: c7Colors.gray300,
-        focus: c7Colors.gray300,
+        hover: pbColors.gray300,
+        focus: pbColors.gray300,
         disabled: 'white'
       },
       borderColor: {
-        default: c7Colors.blue400,
-        hover: c7Colors.blue400,
-        focus: c7Colors.blue400,
-        disabled: c7Colors.gray500
+        default: pbColors.blue400,
+        hover: pbColors.blue400,
+        focus: pbColors.blue400,
+        disabled: pbColors.gray500
       }
     },
     text: {
       fontColor: {
-        default: c7Colors.gray700,
-        hover: c7Colors.gray700,
-        focus: c7Colors.gray700,
-        disabled: c7Colors.gray500
+        default: pbColors.gray700,
+        hover: pbColors.gray700,
+        focus: pbColors.gray700,
+        disabled: pbColors.gray500
       },
       iconColor: {
-        default: c7Colors.gray500,
-        hover: c7Colors.gray700,
-        focus: c7Colors.gray700,
-        disabled: c7Colors.gray500
+        default: pbColors.gray500,
+        hover: pbColors.gray700,
+        focus: pbColors.gray700,
+        disabled: pbColors.gray500
       },
       backgroundColor: {
         default: 'transparent',
@@ -199,16 +199,16 @@ const colors = {
     },
     link: {
       fontColor: {
-        default: c7Colors.blue500,
-        hover: c7Colors.blue500,
-        focus: c7Colors.blue500,
-        disabled: c7Colors.gray500
+        default: pbColors.blue500,
+        hover: pbColors.blue500,
+        focus: pbColors.blue500,
+        disabled: pbColors.gray500
       },
       iconColor: {
-        default: c7Colors.blue500,
-        hover: c7Colors.blue500,
-        focus: c7Colors.blue500,
-        disabled: c7Colors.gray500
+        default: pbColors.blue500,
+        hover: pbColors.blue500,
+        focus: pbColors.blue500,
+        disabled: pbColors.gray500
       },
       backgroundColor: {
         default: 'transparent',

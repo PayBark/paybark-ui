@@ -49,8 +49,8 @@ const StyledInputIcon = styled(Icon)`
   right: ${({ iconPosition }) => (iconPosition === 'end' ? '10px' : 'auto')};
 
   path {
-    fill: ${({ theme }) => svgColors[theme.c7__ui.mode].fill};
-    stroke: ${({ theme }) => svgColors[theme.c7__ui.mode].stroke};
+    fill: ${({ theme }) => svgColors[theme.pb__ui.mode].fill};
+    stroke: ${({ theme }) => svgColors[theme.pb__ui.mode].stroke};
     stroke-width: 0.5px;
   }
 `;

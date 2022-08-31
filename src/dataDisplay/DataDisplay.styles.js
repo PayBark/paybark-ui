@@ -13,10 +13,10 @@ const StyledDataDisplayLabel = styled(StyledLabel).attrs({
 const StaticDataDisplayStyles = styled.p`
   margin: 0;
 
-  color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor};
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 `;
 
 export { StyledDataDisplayLabel, StaticDataDisplayStyles };

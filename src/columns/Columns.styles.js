@@ -5,7 +5,7 @@ const StyledColumns = styled.div`
   align-items: ${({ $align }) => $align};
   flex-wrap: ${({ $isWrap }) => ($isWrap ? 'wrap' : 'initial')};
 
-  @media ${({ theme }) => theme.c7__ui.breakpoints.mediumUp} {
+  @media ${({ theme }) => theme.pb__ui.breakpoints.mediumUp} {
     display: flex;
     margin: 0 -10px;
     align-items: ${({ align }) => align};
@@ -40,7 +40,7 @@ const getColumnSpan = (span) => {
 };
 
 const StyledColumn = styled.div`
-  @media ${({ theme }) => theme.c7__ui.breakpoints.mediumUp} {
+  @media ${({ theme }) => theme.pb__ui.breakpoints.mediumUp} {
     padding: 0 10px;
     ${({ $span }) => getColumnSpan($span)}
   }

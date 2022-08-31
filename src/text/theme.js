@@ -1,13 +1,13 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const colors = {
   light: {
-    errorFontColor: c7Colors.red300,
-    secondaryFontColor: c7Colors.gray600
+    errorFontColor: pbColors.red300,
+    secondaryFontColor: pbColors.gray600
   },
   dark: {
-    errorFontColor: c7Colors.red200,
-    secondaryFontColor: c7Colors.gray500
+    errorFontColor: pbColors.red200,
+    secondaryFontColor: pbColors.gray500
   }
 };
 

@@ -16,14 +16,14 @@ const StyledTag = styled.span`
   max-width: 100%;
   transition: all 0.3s ease-in-out;
 
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 
   cursor: ${({ onClick }) => (onClick ? 'pointer' : 'inherit')};
 
   background-color: ${({ theme, variant }) =>
-    colors[theme.c7__ui.mode][variant].backgroundColor};
-  color: ${({ theme, variant }) => colors[theme.c7__ui.mode][variant].color};
+    colors[theme.pb__ui.mode][variant].backgroundColor};
+  color: ${({ theme, variant }) => colors[theme.pb__ui.mode][variant].color};
 `;
 
 const StyledTagLabel = styled.span`
@@ -50,7 +50,7 @@ const StyledDeleteButton = styled.button`
   background: rgba(255, 255, 255, 0.4);
   color: rgb(41, 50, 56);
 
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
   font-size: 16px;
 
   &:hover,

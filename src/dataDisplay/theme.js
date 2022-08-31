@@ -1,11 +1,11 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const colors = {
   dark: {
-    fontColor: c7Colors.white
+    fontColor: pbColors.white
   },
   light: {
-    fontColor: c7Colors.slate300
+    fontColor: pbColors.slate300
   }
 };
 

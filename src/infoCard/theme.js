@@ -1,20 +1,20 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const colors = {
   light: {
     backgroundColor: {
-      default: c7Colors.white,
-      info: c7Colors.blue500,
-      error: c7Colors.red300,
-      warning: c7Colors.yellow200,
-      success: c7Colors.green200
+      default: pbColors.white,
+      info: pbColors.blue500,
+      error: pbColors.red300,
+      warning: pbColors.yellow200,
+      success: pbColors.green200
     },
     borderColor: {
-      default: c7Colors.gray300,
-      info: c7Colors.gray300,
-      error: c7Colors.gray300,
-      warning: c7Colors.gray300,
-      success: c7Colors.gray300
+      default: pbColors.gray300,
+      info: pbColors.gray300,
+      error: pbColors.gray300,
+      warning: pbColors.gray300,
+      success: pbColors.gray300
     },
     iconBackgroundColor: {
       default: 'rgba(0, 0, 0, 0.1)',
@@ -38,27 +38,27 @@ const colors = {
       success: 'rgba(255, 255, 255, 0.5)'
     },
     fontColor: {
-      default: c7Colors.slate300,
-      info: c7Colors.white,
-      error: c7Colors.white,
-      warning: c7Colors.slate300,
-      success: c7Colors.white
+      default: pbColors.slate300,
+      info: pbColors.white,
+      error: pbColors.white,
+      warning: pbColors.slate300,
+      success: pbColors.white
     }
   },
   dark: {
     backgroundColor: {
-      default: c7Colors.slate200,
-      info: c7Colors.blue600,
-      error: c7Colors.red300,
-      warning: c7Colors.yellow200,
-      success: c7Colors.green200
+      default: pbColors.slate200,
+      info: pbColors.blue600,
+      error: pbColors.red300,
+      warning: pbColors.yellow200,
+      success: pbColors.green200
     },
     borderColor: {
-      default: c7Colors.gray700,
-      info: c7Colors.gray700,
-      error: c7Colors.gray700,
-      warning: c7Colors.gray700,
-      success: c7Colors.gray700
+      default: pbColors.gray700,
+      info: pbColors.gray700,
+      error: pbColors.gray700,
+      warning: pbColors.gray700,
+      success: pbColors.gray700
     },
     iconBackgroundColor: {
       default: 'rgba(255, 255, 255, 0.1)',
@@ -82,11 +82,11 @@ const colors = {
       success: 'rgba(255, 255, 255, 0.5)'
     },
     fontColor: {
-      default: c7Colors.white,
-      info: c7Colors.white,
-      error: c7Colors.white,
-      warning: c7Colors.slate300,
-      success: c7Colors.white
+      default: pbColors.white,
+      info: pbColors.white,
+      error: pbColors.white,
+      warning: pbColors.slate300,
+      success: pbColors.white
     }
   }
 };

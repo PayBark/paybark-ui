@@ -1,50 +1,50 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const colors = {
   dark: {
     backgroundColor: {
-      error: c7Colors.red300,
-      info: c7Colors.blue600,
-      warning: c7Colors.yellow300,
-      default: c7Colors.gray800,
-      success: c7Colors.green300
+      error: pbColors.red300,
+      info: pbColors.blue600,
+      warning: pbColors.yellow300,
+      default: pbColors.gray800,
+      success: pbColors.green300
     },
     borderBackground: {
-      error: c7Colors.red200,
-      info: c7Colors.blue500,
-      warning: c7Colors.yellow200,
-      default: c7Colors.gray700,
-      success: c7Colors.green200
+      error: pbColors.red200,
+      info: pbColors.blue500,
+      warning: pbColors.yellow200,
+      default: pbColors.gray700,
+      success: pbColors.green200
     },
     iconColor: {
-      error: c7Colors.white,
-      info: c7Colors.white,
-      warning: c7Colors.white,
-      default: c7Colors.white,
-      success: c7Colors.white
+      error: pbColors.white,
+      info: pbColors.white,
+      warning: pbColors.white,
+      default: pbColors.white,
+      success: pbColors.white
     }
   },
   light: {
     backgroundColor: {
-      error: c7Colors.red100,
-      info: c7Colors.blue100,
+      error: pbColors.red100,
+      info: pbColors.blue100,
       warning: '#FCF7E8',
-      default: c7Colors.gray100,
-      success: c7Colors.green100
+      default: pbColors.gray100,
+      success: pbColors.green100
     },
     borderBackground: {
-      error: c7Colors.red300,
-      info: c7Colors.blue500,
-      warning: c7Colors.yellow200,
-      default: c7Colors.gray400,
-      success: c7Colors.green300
+      error: pbColors.red300,
+      info: pbColors.blue500,
+      warning: pbColors.yellow200,
+      default: pbColors.gray400,
+      success: pbColors.green300
     },
     iconColor: {
-      error: c7Colors.red300,
-      info: c7Colors.blue500,
+      error: pbColors.red300,
+      info: pbColors.blue500,
       warning: '#BC8C45',
-      default: c7Colors.gray500,
-      success: c7Colors.green300
+      default: pbColors.gray500,
+      success: pbColors.green300
     }
   }
 };
