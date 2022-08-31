@@ -1,22 +1,22 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const colors = {
   dark: {
     backgroundColor: {
-      default: c7Colors.gray700,
-      checked: c7Colors.blue400
+      default: pbColors.gray700,
+      checked: pbColors.blue400
     },
     boxShadow: {
-      focus: c7Colors.gray100
+      focus: pbColors.gray100
     }
   },
   light: {
     backgroundColor: {
-      default: c7Colors.gray300,
-      checked: c7Colors.blue400
+      default: pbColors.gray300,
+      checked: pbColors.blue400
     },
     boxShadow: {
-      focus: c7Colors.gray100
+      focus: pbColors.gray100
     }
   }
 };

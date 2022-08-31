@@ -7,7 +7,7 @@ import { colors, sizes } from './theme';
 const StyledAlert = styled.div`
   padding: ${({ size }) => sizes[size].padding};
   border-radius: 3px;
-  border: 1px solid ${({ theme }) => theme.c7__ui.backgroundColor};
+  border: 1px solid ${({ theme }) => theme.pb__ui.backgroundColor};
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
@@ -15,12 +15,12 @@ const StyledAlert = styled.div`
   display: flex;
   align-items: flex-start;
 
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: ${({ size }) => sizes[size].fontSize};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 
   background-color: ${({ theme, variant }) =>
-    colors[theme.c7__ui.mode].backgroundColor[variant]};
+    colors[theme.pb__ui.mode].backgroundColor[variant]};
 
   &:before {
     content: '';
@@ -30,7 +30,7 @@ const StyledAlert = styled.div`
     bottom: 0px;
     width: ${({ size }) => sizes[size].borderWidth};
     background-color: ${({ theme, variant }) =>
-      colors[theme.c7__ui.mode].borderBackground[variant]};
+      colors[theme.pb__ui.mode].borderBackground[variant]};
   }
 `;
 
@@ -44,7 +44,7 @@ const StyledIcon = styled(Icon)`
 
   path {
     fill: ${({ theme, alertVariant }) =>
-      colors[theme.c7__ui.mode].iconColor[alertVariant]};
+      colors[theme.pb__ui.mode].iconColor[alertVariant]};
   }
 `;
 

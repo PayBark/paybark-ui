@@ -24,50 +24,50 @@ const StyledFormItem = styled.input`
   display: block;
   width: 100%;
 
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 
   box-shadow: 0 0 1px 1px
-    ${({ theme }) => colors[theme.c7__ui.mode].boxShadow.default};
+    ${({ theme }) => colors[theme.pb__ui.mode].boxShadow.default};
   border-color: ${({ theme, hasErrorMessage }) =>
     hasErrorMessage
-      ? colors[theme.c7__ui.mode].borderColor.error
-      : colors[theme.c7__ui.mode].borderColor.default};
+      ? colors[theme.pb__ui.mode].borderColor.error
+      : colors[theme.pb__ui.mode].borderColor.default};
   background-color: ${({ theme }) =>
-    colors[theme.c7__ui.mode].backgroundColor.default};
-  color: ${({ theme }) => colors[theme.c7__ui.mode].color.default};
+    colors[theme.pb__ui.mode].backgroundColor.default};
+  color: ${({ theme }) => colors[theme.pb__ui.mode].color.default};
 
   :-webkit-autofill,
   :-webkit-autofill:focus,
   :-webkit-autofill:hover {
     border-color: ${({ theme, hasErrorMessage }) =>
       hasErrorMessage
-        ? colors[theme.c7__ui.mode].borderColor.error
-        : colors[theme.c7__ui.mode].borderColor.default};
+        ? colors[theme.pb__ui.mode].borderColor.error
+        : colors[theme.pb__ui.mode].borderColor.default};
     -webkit-text-fill-color: ${({ theme }) =>
-      colors[theme.c7__ui.mode].color.default};
+      colors[theme.pb__ui.mode].color.default};
     -webkit-box-shadow: ${({ theme }) =>
       `0 0 0px ${
-        colors[theme.c7__ui.mode].backgroundColor.default
+        colors[theme.pb__ui.mode].backgroundColor.default
       } #000 inset`};
     transition: background-color 5000s ease-in-out 0s;
-    caret-color: ${({ theme }) => colors[theme.c7__ui.mode].color.default};
+    caret-color: ${({ theme }) => colors[theme.pb__ui.mode].color.default};
   }
 
   ::placeholder {
-    color: ${({ theme }) => placeholderColors[theme.c7__ui.mode].color};
-    font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-    font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-    font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
+    color: ${({ theme }) => placeholderColors[theme.pb__ui.mode].color};
+    font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+    font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+    font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
   }
 
   &:focus,
   &:-webkit-autofill:focus {
     outline: none;
     box-shadow: 0 0 1px 1px
-      ${({ theme }) => colors[theme.c7__ui.mode].boxShadow.focus};
-    border-color: ${({ theme }) => colors[theme.c7__ui.mode].borderColor.focus};
+      ${({ theme }) => colors[theme.pb__ui.mode].boxShadow.focus};
+    border-color: ${({ theme }) => colors[theme.pb__ui.mode].borderColor.focus};
   }
 
   &:disabled {
@@ -81,10 +81,10 @@ const StyledLabel = styled.label`
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 
-  color: ${({ theme }) => labelColors[theme.c7__ui.mode].color};
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeSmall};
+  color: ${({ theme }) => labelColors[theme.pb__ui.mode].color};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeSmall};
 `;
 
 const StyledToggleLabel = styled.label`
@@ -94,15 +94,15 @@ const StyledToggleLabel = styled.label`
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   user-select: none;
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
 `;
 
 const StyledToggleText = styled.span`
   margin-left: 10px;
-  color: ${({ theme }) => labelColors[theme.c7__ui.mode].color};
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
+  color: ${({ theme }) => labelColors[theme.pb__ui.mode].color};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
 
   cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'pointer')};
 `;
@@ -111,7 +111,7 @@ const StyledRequiredLabel = styled.span`
   &:after {
     content: '*';
     display: inline-block;
-    color: ${({ theme }) => requiredColors[theme.c7__ui.mode].color};
+    color: ${({ theme }) => requiredColors[theme.pb__ui.mode].color};
     margin-left: 2px;
   }
 `;
@@ -129,10 +129,10 @@ const StyledErrorMessage = styled.span`
     return '0px';
   }};
 
-  color: ${({ theme }) => errorColors[theme.c7__ui.mode].color};
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
+  color: ${({ theme }) => errorColors[theme.pb__ui.mode].color};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
 `;
 
 const StyledHiddenInput = styled.input`
@@ -183,10 +183,10 @@ const StyledDescription = styled.p`
     return '0px';
   }};
 
-  color: ${({ theme }) => theme.c7__ui.secondaryFontColor};
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeSmall};
+  color: ${({ theme }) => theme.pb__ui.secondaryFontColor};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeSmall};
 `;
 
 export {

@@ -9,7 +9,7 @@ const LineBreakStyles = styled.hr`
   display: block;
 
   border-bottom: 1px solid
-    ${({ theme }) => colors[theme.c7__ui.mode].borderColor};
+    ${({ theme }) => colors[theme.pb__ui.mode].borderColor};
 `;
 
 export { LineBreakStyles };

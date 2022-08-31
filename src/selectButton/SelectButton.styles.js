@@ -19,12 +19,12 @@ const StyledSelectButton = styled.button`
   border-width: ${({ selected }) => (selected ? '2px' : '1px')};
   border-color: ${({ theme, selected }) =>
     selected
-      ? colors[theme.c7__ui.mode].borderColor.default
-      : theme.c7__ui.borderColor};
+      ? colors[theme.pb__ui.mode].borderColor.default
+      : theme.pb__ui.borderColor};
   border-radius: 4px;
 
   background-color: ${({ theme }) =>
-    colors[theme.c7__ui.mode].backgroundColor.default};
+    colors[theme.pb__ui.mode].backgroundColor.default};
 
   padding: 20px 10px;
   min-height: 80px;
@@ -32,37 +32,37 @@ const StyledSelectButton = styled.button`
 
   text-decoration: none;
   white-space: break-spaces;
-  color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.default};
+  color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.default};
   font-weight: 400;
   font-size: 16px;
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 
   &:focus:not(:disabled) {
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.focus};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.focus};
     background-color: ${({ theme }) =>
-      colors[theme.c7__ui.mode].backgroundColor.default};
-    border-color: ${({ theme }) => colors[theme.c7__ui.mode].borderColor.focus};
-    box-shadow: ${({ theme }) => shadows[theme.c7__ui.mode].default};
+      colors[theme.pb__ui.mode].backgroundColor.default};
+    border-color: ${({ theme }) => colors[theme.pb__ui.mode].borderColor.focus};
+    box-shadow: ${({ theme }) => shadows[theme.pb__ui.mode].default};
   }
 
   &:hover:not(:disabled) {
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.hover};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.hover};
     background-color: ${({ theme }) =>
-      colors[theme.c7__ui.mode].backgroundColor.hover};
-    border-color: ${({ theme }) => colors[theme.c7__ui.mode].borderColor.hover};
-    box-shadow: ${({ theme }) => shadows[theme.c7__ui.mode].hover};
+      colors[theme.pb__ui.mode].backgroundColor.hover};
+    border-color: ${({ theme }) => colors[theme.pb__ui.mode].borderColor.hover};
+    box-shadow: ${({ theme }) => shadows[theme.pb__ui.mode].hover};
   }
 
   &:disabled {
     cursor: not-allowed;
-    color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.disabled};
+    color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.disabled};
     background-color: ${({ theme }) =>
-      colors[theme.c7__ui.mode].backgroundColor.disabled};
+      colors[theme.pb__ui.mode].backgroundColor.disabled};
     border-color: ${({ theme }) =>
-      colors[theme.c7__ui.mode].borderColor.disabled};
-    box-shadow: ${({ theme }) => shadows[theme.c7__ui.mode].disabled};
+      colors[theme.pb__ui.mode].borderColor.disabled};
+    box-shadow: ${({ theme }) => shadows[theme.pb__ui.mode].disabled};
     * {
-      color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor.disabled};
+      color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.disabled};
     }
   }
 `;

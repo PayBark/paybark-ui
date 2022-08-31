@@ -7,7 +7,7 @@ const TabsStyles = styled.nav`
   column-gap: 4px;
   padding: 0 2.5px;
   justify-content: flex-start;
-  border-bottom: 1px solid ${({ theme }) => theme.c7__ui.borderColor};
+  border-bottom: 1px solid ${({ theme }) => theme.pb__ui.borderColor};
 `;
 
 const TabStyles = styled.div`
@@ -23,34 +23,34 @@ const TabStyles = styled.div`
   flex-basis: auto;
   flex-grow: 1;
 
-  @media ${({ theme }) => theme.c7__ui.breakpoints.mediumUp} {
+  @media ${({ theme }) => theme.pb__ui.breakpoints.mediumUp} {
     max-width: 225px;
     flex-grow: 0;
     padding: 0 15px;
   }
 
   ${({ theme, $activeClassName }) => `
-    font-family: ${theme.c7__ui.fontFamily};
-    color: ${theme.c7__ui.secondaryFontColor};
-    background-color: ${theme.c7__ui.secondaryBackgroundColor};
-    border: 1px solid ${theme.c7__ui.borderColor};
-    border-top-left-radius: ${theme.c7__ui.borderRadius};
-    border-top-right-radius: ${theme.c7__ui.borderRadius};
+    font-family: ${theme.pb__ui.fontFamily};
+    color: ${theme.pb__ui.secondaryFontColor};
+    background-color: ${theme.pb__ui.secondaryBackgroundColor};
+    border: 1px solid ${theme.pb__ui.borderColor};
+    border-top-left-radius: ${theme.pb__ui.borderRadius};
+    border-top-right-radius: ${theme.pb__ui.borderRadius};
 
     
     &.${$activeClassName} {
-      color: ${theme.c7__ui.fontColor};
-      background-color: ${theme.c7__ui.backgroundColor};
-      border-bottom: ${theme.c7__ui.backgroundColor};
+      color: ${theme.pb__ui.fontColor};
+      background-color: ${theme.pb__ui.backgroundColor};
+      border-bottom: ${theme.pb__ui.backgroundColor};
     }
   `}
 `;
 
 const TabBodyStyles = styled.section`
-  background: ${({ theme }) => theme.c7__ui.backgroundColor};
+  background: ${({ theme }) => theme.pb__ui.backgroundColor};
   padding: 20px;
 
-  @media ${({ theme }) => theme.c7__ui.breakpoints.largeUp} {
+  @media ${({ theme }) => theme.pb__ui.breakpoints.largeUp} {
     padding: 30px;
   }
 `;

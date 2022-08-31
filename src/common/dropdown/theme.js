@@ -1,20 +1,20 @@
-import { c7Colors } from '../../ui/theme';
+import { pbColors } from '../../ui/theme';
 
 const colors = {
   dark: {
     fontColor: {
-      default: c7Colors.gray200,
-      hover: c7Colors.gray500,
-      focus: c7Colors.gray500,
-      disabled: c7Colors.gray500
+      default: pbColors.gray200,
+      hover: pbColors.gray500,
+      focus: pbColors.gray500,
+      disabled: pbColors.gray500
     }
   },
   light: {
     fontColor: {
-      default: c7Colors.slate300,
-      hover: c7Colors.gray700,
-      focus: c7Colors.gray700,
-      disabled: c7Colors.gray400
+      default: pbColors.slate300,
+      hover: pbColors.gray700,
+      focus: pbColors.gray700,
+      disabled: pbColors.gray400
     }
   }
 };
@@ -22,10 +22,10 @@ const colors = {
 const dropdownColors = {
   dark: {
     backgroundColor: {
-      default: c7Colors.slate300
+      default: pbColors.slate300
     },
     borderColor: {
-      default: c7Colors.gray700
+      default: pbColors.gray700
     },
     shadowColor: {
       default: 'rgba(0, 0, 0, .5)'
@@ -33,10 +33,10 @@ const dropdownColors = {
   },
   light: {
     backgroundColor: {
-      default: c7Colors.white
+      default: pbColors.white
     },
     borderColor: {
-      default: c7Colors.gray300
+      default: pbColors.gray300
     },
     shadowColor: {
       default: 'rgba(0, 0, 0, .15)'
@@ -48,15 +48,15 @@ const dropdownButtonColors = {
   dark: {
     backgroundColor: {
       default: 'transparent',
-      hover: c7Colors.slate200,
-      focus: c7Colors.slate200
+      hover: pbColors.slate200,
+      focus: pbColors.slate200
     }
   },
   light: {
     backgroundColor: {
       default: 'transparent',
-      hover: c7Colors.gray100,
-      focus: c7Colors.gray100
+      hover: pbColors.gray100,
+      focus: pbColors.gray100
     }
   }
 };

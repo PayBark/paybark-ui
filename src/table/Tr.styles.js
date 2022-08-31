@@ -7,18 +7,18 @@ const StyledTr = styled.tr`
 
   cursor: ${({ onClick }) => (onClick ? 'pointer' : 'default')};
 
-  border-color: ${({ theme }) => trColors[theme.c7__ui.mode].borderColor};
+  border-color: ${({ theme }) => trColors[theme.pb__ui.mode].borderColor};
   background-color: ${({ theme }) =>
-    trColors[theme.c7__ui.mode].backgroundColor.default};
+    trColors[theme.pb__ui.mode].backgroundColor.default};
 
   &:nth-child(odd) {
     background-color: ${({ theme }) =>
-      trColors[theme.c7__ui.mode].backgroundColor.alt};
+      trColors[theme.pb__ui.mode].backgroundColor.alt};
   }
 
   &:hover {
     background-color: ${({ theme, onClick }) =>
-      onClick ? trColors[theme.c7__ui.mode].backgroundColor.hover : ''};
+      onClick ? trColors[theme.pb__ui.mode].backgroundColor.hover : ''};
   }
 
   &:last-of-type {

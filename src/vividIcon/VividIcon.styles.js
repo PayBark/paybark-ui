@@ -6,7 +6,7 @@ import { colors } from './theme';
 
 const StyledIconContainer = styled.div`
   background: ${({ theme, color }) =>
-    colors[theme.c7__ui.mode][color].backgroundColor};
+    colors[theme.pb__ui.mode][color].backgroundColor};
   border-radius: 2px;
   width: 40px;
   height: 40px;
@@ -18,7 +18,7 @@ const StyledIconContainer = styled.div`
 
 const StyledIcon = styled(Icon)`
   path {
-    fill: ${({ theme, color }) => colors[theme.c7__ui.mode][color].fillColor};
+    fill: ${({ theme, color }) => colors[theme.pb__ui.mode][color].fillColor};
   }
 `;
 

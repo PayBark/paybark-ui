@@ -7,11 +7,11 @@ const StyledTfoot = styled.tfoot`
 
   tr {
     background-color: ${({ theme }) =>
-      tfootColors[theme.c7__ui.mode].backgroundColor} !important;
+      tfootColors[theme.pb__ui.mode].backgroundColor} !important;
   }
 
   td {
-    font-weight: ${({ theme }) => theme.c7__ui.fontWeightStrong};
+    font-weight: ${({ theme }) => theme.pb__ui.fontWeightStrong};
   }
 `;
 

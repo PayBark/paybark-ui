@@ -1,75 +1,75 @@
-import { c7Colors } from '../../ui/theme';
+import { pbColors } from '../../ui/theme';
 
 const colors = {
   dark: {
     color: {
-      default: c7Colors.gray200
+      default: pbColors.gray200
     },
     borderColor: {
-      default: c7Colors.gray600,
-      focus: c7Colors.blue300,
-      error: c7Colors.red200
+      default: pbColors.gray600,
+      focus: pbColors.blue300,
+      error: pbColors.red200
     },
     backgroundColor: {
-      default: c7Colors.slate300
+      default: pbColors.slate300
     },
     boxShadow: {
       default: 'transparent',
-      focus: c7Colors.slate200
+      focus: pbColors.slate200
     }
   },
   light: {
     color: {
-      default: c7Colors.slate300
+      default: pbColors.slate300
     },
     borderColor: {
-      default: c7Colors.gray400,
-      focus: c7Colors.blue400,
-      error: c7Colors.red300
+      default: pbColors.gray400,
+      focus: pbColors.blue400,
+      error: pbColors.red300
     },
     backgroundColor: {
-      default: c7Colors.white
+      default: pbColors.white
     },
     boxShadow: {
       default: 'transparent',
-      focus: c7Colors.gray100
+      focus: pbColors.gray100
     }
   }
 };
 
 const labelColors = {
   dark: {
-    color: c7Colors.gray200
+    color: pbColors.gray200
   },
   light: {
-    color: c7Colors.slate300
+    color: pbColors.slate300
   }
 };
 
 const requiredColors = {
   dark: {
-    color: c7Colors.red300
+    color: pbColors.red300
   },
   light: {
-    color: c7Colors.red300
+    color: pbColors.red300
   }
 };
 
 const errorColors = {
   dark: {
-    color: c7Colors.red200
+    color: pbColors.red200
   },
   light: {
-    color: c7Colors.red300
+    color: pbColors.red300
   }
 };
 
 const placeholderColors = {
   dark: {
-    color: c7Colors.gray600
+    color: pbColors.gray600
   },
   light: {
-    color: c7Colors.gray500
+    color: pbColors.gray500
   }
 };
 

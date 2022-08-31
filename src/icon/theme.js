@@ -1,21 +1,21 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const colors = {
   dark: {
-    default: c7Colors.gray200,
-    success: c7Colors.green200,
-    error: c7Colors.red300
+    default: pbColors.gray200,
+    success: pbColors.green200,
+    error: pbColors.red300
   },
   light: {
-    default: c7Colors.gray500,
-    success: c7Colors.green200,
-    error: c7Colors.red300
+    default: pbColors.gray500,
+    success: pbColors.green200,
+    error: pbColors.red300
   }
 };
 
 const backgroundColors = {
-  dark: c7Colors.gray700,
-  light: c7Colors.gray300
+  dark: pbColors.gray700,
+  light: pbColors.gray300
 };
 
 export { colors, backgroundColors };

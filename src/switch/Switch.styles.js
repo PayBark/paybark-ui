@@ -19,7 +19,7 @@ const StyledSwitchIcon = styled.span`
 
   &:after {
     background-color: ${({ theme }) =>
-      colors[theme.c7__ui.mode].backgroundColor.default};
+      colors[theme.pb__ui.mode].backgroundColor.default};
     width: 100%;
     height: 100%;
     border-radius: 32px;
@@ -39,7 +39,7 @@ const StyledSwitchIcon = styled.span`
   ${StyledHiddenInput}:focus + & {
     &:before {
       box-shadow: 0 0 1px 1px
-        ${({ theme }) => colors[theme.c7__ui.mode].boxShadow.focus};
+        ${({ theme }) => colors[theme.pb__ui.mode].boxShadow.focus};
     }
   }
 
@@ -51,7 +51,7 @@ const StyledSwitchIcon = styled.span`
   ${StyledHiddenInput}:checked + & {
     &:after {
       background: ${({ theme }) =>
-        colors[theme.c7__ui.mode].backgroundColor.checked};
+        colors[theme.pb__ui.mode].backgroundColor.checked};
     }
     &:before {
       transform: translateX(12px);

@@ -9,10 +9,10 @@ const StyledIcon = styled.svg`
   min-width: ${({ size }) => `${size}`}px;
   min-height: ${({ size }) => `${size}`}px;
 
-  fill: ${({ theme, variant }) => colors[theme.c7__ui.mode][variant]};
+  fill: ${({ theme, variant }) => colors[theme.pb__ui.mode][variant]};
 
   path {
-    fill: ${({ theme, variant }) => colors[theme.c7__ui.mode][variant]};
+    fill: ${({ theme, variant }) => colors[theme.pb__ui.mode][variant]};
   }
 `;
 

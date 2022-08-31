@@ -23,12 +23,12 @@ const StyledModalContent = styled.div`
   width: 600px;
   max-width: 90vw;
 
-  background-color: ${({ theme }) => colors[theme.c7__ui.mode].backgroundColor};
+  background-color: ${({ theme }) => colors[theme.pb__ui.mode].backgroundColor};
 
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-  color: ${({ theme }) => theme.c7__ui.fontColor};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  color: ${({ theme }) => theme.pb__ui.fontColor};
 `;
 
 const StyledModalHeader = styled.div`
@@ -36,10 +36,10 @@ const StyledModalHeader = styled.div`
   padding: 15px;
   align-items: center;
   border-bottom: 1px solid
-    ${({ theme }) => colors[theme.c7__ui.mode].borderColor};
+    ${({ theme }) => colors[theme.pb__ui.mode].borderColor};
 
   ${({ theme }) => `
-      @media ${theme.c7__ui.breakpoints.mediumUp} {
+      @media ${theme.pb__ui.breakpoints.mediumUp} {
         padding: 20px;
       }
     `}
@@ -50,9 +50,9 @@ const StyledModalTitle = styled.h2`
   margin: 0;
   font-size: 18px;
 
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
-  color: ${({ theme }) => theme.c7__ui.fontColor};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  color: ${({ theme }) => theme.pb__ui.fontColor};
 `;
 
 export {

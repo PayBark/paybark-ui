@@ -10,8 +10,8 @@ const StyledTh = styled.th`
 
   text-align: ${({ align }) => align};
 
-  color: ${({ theme }) => thColors[theme.c7__ui.mode].color};
-  border-color: ${({ theme }) => thColors[theme.c7__ui.mode].borderColor};
+  color: ${({ theme }) => thColors[theme.pb__ui.mode].color};
+  border-color: ${({ theme }) => thColors[theme.pb__ui.mode].borderColor};
 `;
 
 export { StyledTh };

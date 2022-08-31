@@ -1,4 +1,4 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const colors = {
   light: {
@@ -16,7 +16,7 @@ const colors = {
     },
     teal: {
       backgroundColor: 'rgba(0,103,157, 0.1)',
-      fillColor: c7Colors.blue500
+      fillColor: pbColors.blue500
     },
     orange: {
       backgroundColor: 'rgba(240,142,50, 0.1)',
@@ -42,7 +42,7 @@ const colors = {
     },
     teal: {
       backgroundColor: 'rgba(0,103,157, 0.1)',
-      fillColor: c7Colors.blue500
+      fillColor: pbColors.blue500
     },
     orange: {
       backgroundColor: 'rgba(240,142,50, 0.1)',

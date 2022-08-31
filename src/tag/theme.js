@@ -1,48 +1,48 @@
-import { c7Colors } from '../ui/theme';
+import { pbColors } from '../ui/theme';
 
 const colors = {
   light: {
     default: {
-      color: c7Colors.slate300,
-      backgroundColor: c7Colors.gray300
+      color: pbColors.slate300,
+      backgroundColor: pbColors.gray300
     },
     info: {
-      color: c7Colors.white,
-      backgroundColor: c7Colors.blue500
+      color: pbColors.white,
+      backgroundColor: pbColors.blue500
     },
     warning: {
-      color: c7Colors.slate300,
-      backgroundColor: c7Colors.yellow200
+      color: pbColors.slate300,
+      backgroundColor: pbColors.yellow200
     },
     error: {
-      color: c7Colors.white,
-      backgroundColor: c7Colors.red300
+      color: pbColors.white,
+      backgroundColor: pbColors.red300
     },
     success: {
-      color: c7Colors.white,
-      backgroundColor: c7Colors.green200
+      color: pbColors.white,
+      backgroundColor: pbColors.green200
     }
   },
   dark: {
     default: {
-      color: c7Colors.white,
-      backgroundColor: c7Colors.gray700
+      color: pbColors.white,
+      backgroundColor: pbColors.gray700
     },
     info: {
-      color: c7Colors.white,
-      backgroundColor: c7Colors.blue500
+      color: pbColors.white,
+      backgroundColor: pbColors.blue500
     },
     warning: {
-      color: c7Colors.slate300,
-      backgroundColor: c7Colors.yellow200
+      color: pbColors.slate300,
+      backgroundColor: pbColors.yellow200
     },
     error: {
-      color: c7Colors.white,
-      backgroundColor: c7Colors.red300
+      color: pbColors.white,
+      backgroundColor: pbColors.red300
     },
     success: {
-      color: c7Colors.white,
-      backgroundColor: c7Colors.green200
+      color: pbColors.white,
+      backgroundColor: pbColors.green200
     }
   }
 };

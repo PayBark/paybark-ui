@@ -14,7 +14,7 @@ const StyledBreadcrumb = styled.div`
   }
   &:not(:last-child) {
     span {
-      color: ${({ theme }) => colors[theme.c7__ui.mode].secondaryFontColor};
+      color: ${({ theme }) => colors[theme.pb__ui.mode].secondaryFontColor};
     }
   }
 

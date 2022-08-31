@@ -5,9 +5,9 @@ import Icon from '../icon';
 import { sizes, iconSizes, fontSizes, colors } from './theme';
 
 const StyledAvatar = styled.div`
-  font-weight: ${({ theme }) => theme.c7__ui.fontWeightBase};
-  font-size: ${({ theme }) => theme.c7__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.c7__ui.fontFamily};
+  font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
+  font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
+  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
 
   ${({ size }) => `
     width: ${sizes[size]};
@@ -27,8 +27,8 @@ const StyledAvatar = styled.div`
 
   transition: all 0.3s ease-in-out;
 
-  color: ${({ theme }) => colors[theme.c7__ui.mode].fontColor};
-  background-color: ${({ theme }) => colors[theme.c7__ui.mode].background};
+  color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor};
+  background-color: ${({ theme }) => colors[theme.pb__ui.mode].background};
 
   img {
     min-width: 100%;
@@ -43,10 +43,10 @@ const StyledAvatarIcon = styled(Icon)`
     min-width: ${iconSizes[avatarSize]};
     height: ${iconSizes[avatarSize]};
     min-height: ${iconSizes[avatarSize]};
-    fill: ${({ theme }) => colors[theme.c7__ui.mode].iconColor};
+    fill: ${({ theme }) => colors[theme.pb__ui.mode].iconColor};
   `}
   path {
-    fill: ${({ theme }) => colors[theme.c7__ui.mode].iconColor};
+    fill: ${({ theme }) => colors[theme.pb__ui.mode].iconColor};
   }
 `;
 

@@ -16,16 +16,16 @@ const StyledInfoCard = styled.div`
   flex-direction: column;
   align-items: center;
   border: 1px solid
-    ${({ theme, variant }) => colors[theme.c7__ui.mode].borderColor[variant]};
-  border-radius: ${({ theme }) => theme.c7__ui.borderRadius};
+    ${({ theme, variant }) => colors[theme.pb__ui.mode].borderColor[variant]};
+  border-radius: ${({ theme }) => theme.pb__ui.borderRadius};
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
   background: ${({ theme, variant }) =>
-    colors[theme.c7__ui.mode].backgroundColor[variant]};
+    colors[theme.pb__ui.mode].backgroundColor[variant]};
 `;
 
 const StyledIcon = styled.div`
   ${({ theme, variant }) => `
-    background: ${colors[theme.c7__ui.mode].iconBackgroundColor[variant]};
+    background: ${colors[theme.pb__ui.mode].iconBackgroundColor[variant]};
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -37,7 +37,7 @@ const StyledIcon = styled.div`
       width: 24px;
       height: 24px;
       path {
-        fill: ${colors[theme.c7__ui.mode].iconFill[variant]};
+        fill: ${colors[theme.pb__ui.mode].iconFill[variant]};
       }
     }
   `}
@@ -52,7 +52,7 @@ const StyledLabel = styled.span`
   margin-bottom: 5px;
   display: block;
   ${({ theme, variant }) => `
-    color: ${colors[theme.c7__ui.mode].labelColor[variant]};
+    color: ${colors[theme.pb__ui.mode].labelColor[variant]};
   `}
 `;
 
@@ -63,9 +63,9 @@ const StyledTitle = styled.span`
   text-align: center;
   margin-bottom: 5px;
   ${({ theme, variant }) => `
-    color: ${colors[theme.c7__ui.mode].fontColor[variant]};
+    color: ${colors[theme.pb__ui.mode].fontColor[variant]};
     a {
-      color: ${colors[theme.c7__ui.mode].fontColor[variant]};
+      color: ${colors[theme.pb__ui.mode].fontColor[variant]};
       text-decoration: underline;
     }
   `}
@@ -77,7 +77,7 @@ const StyledSubtitle = styled.span`
   display: block;
   text-align: center;
   ${({ theme, variant }) => `
-    color: ${colors[theme.c7__ui.mode].fontColor[variant]};
+    color: ${colors[theme.pb__ui.mode].fontColor[variant]};
   `}
 `;
 

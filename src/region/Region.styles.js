@@ -38,7 +38,7 @@ const StyledRegion = styled.div`
 
   ${({ borderBottom, theme, isAnimated }) => `
     border-bottom: ${
-      borderBottom ? `1px solid ${theme.c7__ui.borderColor}` : ''
+      borderBottom ? `1px solid ${theme.pb__ui.borderColor}` : ''
     };
     padding-bottom: ${borderBottom ? '30px' : ''};
 

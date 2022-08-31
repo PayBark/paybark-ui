@@ -9,22 +9,22 @@ const StyledModalFooter = styled.div`
   justify-content: flex-end;
   gap: 10px;
 
-  background-color: ${({ theme }) => colors[theme.c7__ui.mode].backgroundColor};
-  border-top: 1px solid ${({ theme }) => colors[theme.c7__ui.mode].borderColor};
+  background-color: ${({ theme }) => colors[theme.pb__ui.mode].backgroundColor};
+  border-top: 1px solid ${({ theme }) => colors[theme.pb__ui.mode].borderColor};
 
   button,
   a {
     margin-left: 0px !important;
     flex: 1;
     ${({ theme }) => `
-      @media ${theme.c7__ui.breakpoints.mediumUp} {
+      @media ${theme.pb__ui.breakpoints.mediumUp} {
         flex: none;
       }
     `}
   }
 
   ${({ theme }) => `
-      @media ${theme.c7__ui.breakpoints.mediumUp} {
+      @media ${theme.pb__ui.breakpoints.mediumUp} {
         padding: 20px;
       }
     `}
