@@ -20,18 +20,10 @@ In HTML:
 
 ```
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap" rel="stylesheet">
-```
-
-With NPM:
-
-```
-npm install @fontsource/nunito
-```
-
-```
-import "@fontsource/nunito/300.css"
-import "@fontsource/nunito/600.css"
+<link
+  href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 <br />
