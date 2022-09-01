@@ -27,7 +27,7 @@ const StyledModalContent = styled.div`
 
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
   color: ${({ theme }) => theme.pb__ui.fontColor};
 `;
 
@@ -51,7 +51,7 @@ const StyledModalTitle = styled.h2`
   font-size: 18px;
 
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
   color: ${({ theme }) => theme.pb__ui.fontColor};
 `;
 

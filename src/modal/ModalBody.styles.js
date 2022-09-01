@@ -10,7 +10,7 @@ const StyledModalBody = styled.div`
   color: ${({ theme }) => theme.pb__ui.fontColor};
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
   background-color: ${({ theme }) => colors[theme.pb__ui.mode].backgroundColor};
 
   ${({ theme }) => `

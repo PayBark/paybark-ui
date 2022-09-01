@@ -29,7 +29,7 @@ const StyledButton = styled.button`
 
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: 16px;
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
 
   padding: ${({ size }) => sizes[size].padding};
   ${({ variant }) =>

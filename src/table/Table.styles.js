@@ -14,7 +14,7 @@ const StyledTable = styled.table`
   width: 100%;
   border-collapse: collapse;
 
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
 `;

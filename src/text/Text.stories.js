@@ -17,6 +17,7 @@ export const Basic = () => (
     <Text uppercase>Limited Offer</Text>
     <br />
     <Text strikeThrough>$24.99</Text>
+    <div>Steve Keaner</div>
   </>
 );
 

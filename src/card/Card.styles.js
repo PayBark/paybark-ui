@@ -5,7 +5,7 @@ import { colors } from './theme';
 const StyledCard = styled.div`
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
 
   padding: 30px;
   transition: all 0.3s ease-in-out;
