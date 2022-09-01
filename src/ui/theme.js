@@ -39,6 +39,23 @@ export const pbColors = {
   gray900: '#20272B'
 };
 
+//  brandAlt1: `#e28856`,
+// 	brandAlt1Hover: `#f67d3a`,
+// 	brandAlt2: `#7747ff`,
+// 	brandAlt2Hover: `#d6c9ff`,
+// 	brandAlt3: `#250450`,
+// 	brandAlt3Hover: `#420e87`,
+// 	brandAlt4: `#ffd8c2`,
+// 	brandAlt4Hover: `#f0aa83`,
+// 	brandDefault: `#848484`,
+// 	brandGrey: `#d8d8d8`,
+// 	brandLightGrey: `#e9e5e5`,
+// 	brandLightestGrey: `#f2f2f2`,
+// 	brandDarkGrey: `#231F20`,
+// 	brandWhite: `#ffffff`,
+// 	overlayColor: `#7747ff`,
+// 	errorColor:  `#E98741`,
+
 const fontColors = {
   dark: pbColors.gray200,
   light: pbColors.slate300
@@ -82,7 +99,9 @@ const errorColors = {
 export const createTheme = (mode) => ({
   pb__ui: {
     mode,
-    fontFamily: '"Nunito", sans-serif',
+    baseFontFamily: '"Roboto", sans-serif',
+    alternateFontFamily: '"Playfair Display", serif',
+    headerFontFamily: '"Maven Pro", sans-serif',
     fontSizeBase: '15px',
     fontSizeSmall: '14px',
     fontWeightBase: '400',
@@ -121,7 +140,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   html, body {
     font-size:  ${({ theme }) => theme.pb__ui.fontSizeBase};
-    font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+    font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
     font-weight:  ${({ theme }) => theme.pb__ui.fontWeightBase};
     -webkit-font-smoothing: antialiased;
   }

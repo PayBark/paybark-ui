@@ -17,7 +17,7 @@ const StyledTag = styled.span`
   transition: all 0.3s ease-in-out;
 
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
 
   cursor: ${({ onClick }) => (onClick ? 'pointer' : 'inherit')};
 
@@ -50,7 +50,7 @@ const StyledDeleteButton = styled.button`
   background: rgba(255, 255, 255, 0.4);
   color: rgb(41, 50, 56);
 
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
   font-size: 16px;
 
   &:hover,

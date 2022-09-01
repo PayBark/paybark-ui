@@ -5,7 +5,7 @@ import { colors, dayColors } from './theme';
 const StyledDatePicker = styled.div`
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
   position: relative;
 
   .rdt {

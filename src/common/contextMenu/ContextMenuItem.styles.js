@@ -23,7 +23,7 @@ const StyledContextMenuItem = styled.button`
 
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: 16px;
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
 
   color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.default};
 

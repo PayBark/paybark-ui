@@ -16,7 +16,7 @@ const StyledText = styled.span`
     return theme.pb__ui.fontColor;
   }};
   transition: color 0.3s ease-in-out;
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
   font-weight: ${({ strong, theme }) =>
     strong ? theme.pb__ui.fontWeightStrong : theme.pb__ui.fontWeightBase};
   font-style: ${({ italic }) => (italic ? 'italic' : '')};

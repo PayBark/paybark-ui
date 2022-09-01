@@ -7,7 +7,7 @@ import { sizes, iconSizes, fontSizes, colors } from './theme';
 const StyledAvatar = styled.div`
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
 
   ${({ size }) => `
     width: ${sizes[size]};

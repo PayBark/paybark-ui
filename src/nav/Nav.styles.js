@@ -26,7 +26,7 @@ const NavLinkStyles = styled.a`
   cursor: pointer;
   font-size: 16px;
   letter-spacing: 0.05em;
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
 
   ${({ theme, $activeClassName }) => `
     border-radius: ${theme.pb__ui.borderRadius};
@@ -74,7 +74,7 @@ const SubNavLinkStyles = styled.a`
   background-color: inherit;
   cursor: pointer;
   width: 100%;
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
 
   ${({ theme, $activeClassName }) => `
     border-radius: ${theme.pb__ui.borderRadius};

@@ -30,7 +30,7 @@ const TabStyles = styled.div`
   }
 
   ${({ theme, $activeClassName }) => `
-    font-family: ${theme.pb__ui.fontFamily};
+    font-family: ${theme.pb__ui.headerFontFamily};
     color: ${theme.pb__ui.secondaryFontColor};
     background-color: ${theme.pb__ui.secondaryBackgroundColor};
     border: 1px solid ${theme.pb__ui.borderColor};

@@ -17,7 +17,7 @@ const StyledAlert = styled.div`
 
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: ${({ size }) => sizes[size].fontSize};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
 
   background-color: ${({ theme, variant }) =>
     colors[theme.pb__ui.mode].backgroundColor[variant]};

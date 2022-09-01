@@ -4,7 +4,7 @@ import { fontSize, colors } from './theme';
 
 const StyledHeading = styled.h2`
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
   color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor};
 
   transition: color 0.3s ease-in-out;

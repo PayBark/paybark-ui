@@ -35,7 +35,7 @@ const StyledSelectButton = styled.button`
   color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.default};
   font-weight: 400;
   font-size: 16px;
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
 
   &:focus:not(:disabled) {
     color: ${({ theme }) => colors[theme.pb__ui.mode].fontColor.focus};

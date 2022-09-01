@@ -26,7 +26,7 @@ const StyledFormItem = styled.input`
 
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
 
   box-shadow: 0 0 1px 1px
     ${({ theme }) => colors[theme.pb__ui.mode].boxShadow.default};
@@ -58,7 +58,7 @@ const StyledFormItem = styled.input`
   ::placeholder {
     color: ${({ theme }) => placeholderColors[theme.pb__ui.mode].color};
     font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
-    font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+    font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
     font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
   }
 
@@ -83,7 +83,7 @@ const StyledLabel = styled.label`
 
   color: ${({ theme }) => labelColors[theme.pb__ui.mode].color};
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.headerFontFamily};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeSmall};
 `;
 
@@ -101,7 +101,7 @@ const StyledToggleText = styled.span`
   margin-left: 10px;
   color: ${({ theme }) => labelColors[theme.pb__ui.mode].color};
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
 
   cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'pointer')};
@@ -131,7 +131,7 @@ const StyledErrorMessage = styled.span`
 
   color: ${({ theme }) => errorColors[theme.pb__ui.mode].color};
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeBase};
 `;
 
@@ -185,7 +185,7 @@ const StyledDescription = styled.p`
 
   color: ${({ theme }) => theme.pb__ui.secondaryFontColor};
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
-  font-family: ${({ theme }) => theme.pb__ui.fontFamily};
+  font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeSmall};
 `;
 
