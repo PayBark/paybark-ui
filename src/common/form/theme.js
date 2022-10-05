@@ -20,12 +20,12 @@ const colors = {
   },
   light: {
     color: {
-      default: pbColors.slate300
+      default: pbColors.brandAlt2
     },
     borderColor: {
-      default: pbColors.gray400,
-      focus: pbColors.blue400,
-      error: pbColors.red300
+      default: pbColors.alt2Hover,
+      focus: pbColors.red,
+      error: pbColors.error
     },
     backgroundColor: {
       default: pbColors.white
@@ -42,7 +42,7 @@ const labelColors = {
     color: pbColors.gray200
   },
   light: {
-    color: pbColors.slate300
+    color: pbColors.alt2Hover
   }
 };
 
@@ -51,7 +51,7 @@ const requiredColors = {
     color: pbColors.red300
   },
   light: {
-    color: pbColors.red300
+    color: pbColors.error
   }
 };
 
@@ -60,7 +60,7 @@ const errorColors = {
     color: pbColors.red200
   },
   light: {
-    color: pbColors.red300
+    color: pbColors.error
   }
 };
 
@@ -69,7 +69,7 @@ const placeholderColors = {
     color: pbColors.gray600
   },
   light: {
-    color: pbColors.gray500
+    color: pbColors.brandAlt2
   }
 };
 

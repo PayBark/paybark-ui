@@ -5,6 +5,13 @@ export const pbColors = {
   white: '#FFFFFF',
   black: '#000000',
 
+  // PB New colors
+  alt2Hover: '#A589F7',
+  brandAlt2: '#7747FF',
+  error: '#E98741',
+  default: '#8B7D99',
+  // =================
+
   yellow100: '#FFF9E6',
   yellow200: '#FED861',
   yellow300: '#BF9D36',
@@ -78,7 +85,7 @@ const secondaryBackgroundColors = {
 
 const borderColors = {
   dark: pbColors.gray800,
-  light: pbColors.gray300
+  light: pbColors.alt2Hover
 };
 
 const boxShadow = {
@@ -102,8 +109,8 @@ export const createTheme = (mode) => ({
     baseFontFamily: '"Roboto", sans-serif',
     alternateFontFamily: '"Playfair Display", serif',
     headerFontFamily: '"Maven Pro", sans-serif',
-    fontSizeBase: '15px',
-    fontSizeSmall: '14px',
+    fontSizeBase: '14px',
+    fontSizeSmall: '12px',
     fontWeightBase: '400',
     fontWeightStrong: '600',
     fontColor: fontColors[mode],
