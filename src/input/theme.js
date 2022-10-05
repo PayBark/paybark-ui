@@ -6,8 +6,8 @@ const svgColors = {
     fill: pbColors.gray200
   },
   light: {
-    stroke: pbColors.gray500,
-    fill: pbColors.gray500
+    stroke: pbColors.brandAlt2,
+    fill: pbColors.brandAlt2
   }
 };
 export { svgColors };

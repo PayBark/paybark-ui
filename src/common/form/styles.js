@@ -15,11 +15,11 @@ const StyledInputWrapper = styled.div.attrs({
 `;
 
 const StyledFormItem = styled.input`
-  height: 46px;
-  padding: 0 12px;
+  height: 31px;
+  padding: 0 15px;
   display: block;
   border: 1px solid;
-  border-radius: 3px;
+  border-radius: 16px;
   transition: all 0.3s ease-in-out;
   display: block;
   width: 100%;
@@ -126,7 +126,7 @@ const StyledErrorMessage = styled.span`
     if (isSwitch) {
       return '42px';
     }
-    return '0px';
+    return '15px';
   }};
 
   color: ${({ theme }) => errorColors[theme.pb__ui.mode].color};
@@ -180,10 +180,10 @@ const StyledDescription = styled.p`
     if (isSwitch) {
       return '42px';
     }
-    return '0px';
+    return '15px';
   }};
 
-  color: ${({ theme }) => theme.pb__ui.secondaryFontColor};
+  color: ${({ theme }) => theme.pb__ui.colors.default};
   font-weight: ${({ theme }) => theme.pb__ui.fontWeightBase};
   font-family: ${({ theme }) => theme.pb__ui.baseFontFamily};
   font-size: ${({ theme }) => theme.pb__ui.fontSizeSmall};
